@@ -1,6 +1,7 @@
+const myform = document.querySelector('#myform')
 let productosEnCarrito = localStorage.getItem('productos-en-carrito');
 productosEnCarrito = JSON.parse(productosEnCarrito);
-
+ 
 const contenedorcarritoVacio = document.querySelector('#carrito-vacio');
 const contenedorCarritoProductos = document.querySelector('#carrito-productos');
 const contenedorCarritoAcciones = document.querySelector('#carrito-acciones');
@@ -129,19 +130,17 @@ function actualizarTotal(){
     total.innerText = `$${totalCalculado}`;
 }
 
+
+
 botonComprar.addEventListener('click',comprarCarrito);
 
 function comprarCarrito(){
-
     productosEnCarrito.length = 0;
-    localStorage.setItem('productos-en-carrito',JSON.stringify(productosEnCarrito));
-    
+    //localStorage.setItem('productos-en-carrito',JSON.stringify(productosEnCarrito));
     contenedorcarritoVacio.classList.add('disabled');
-        contenedorCarritoProductos.classList.add('disabled');
-        contenedorCarritoAcciones.classList.add('disabled');
-        contenedorCarritoComprado.classList.remove('disabled');
+    contenedorCarritoProductos.classList.add('disabled');
+    contenedorCarritoAcciones.classList.add('disabled');
+    contenedorCarritoComprado.classList.remove('disabled');
 }
-
-
 
 
