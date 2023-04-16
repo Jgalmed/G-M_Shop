@@ -5,8 +5,7 @@
     $dirp = $_POST['dirp'];
     $dirs = $_POST['dirs'];
     $ndir = $_POST['ndir'];
-    $data = $_POST['data'];
-
+    $data = $_POST['productos'];
     $formcontent = "
         Nombre: $name \n
         Correo: $email \n
@@ -15,7 +14,7 @@
         Calle Secundaria: $dirs \n 
         Nro Casa: $ndir \n
         Productos: $data
-    "   
+    ";   
     // \n dentro de formcontent
     $recipient = "jgallegos.jg99@gmail.com";
 
