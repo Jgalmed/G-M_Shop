@@ -5,6 +5,7 @@
     $dirp = $_POST['dirp'];
     $dirs = $_POST['dirs'];
     $ndir = $_POST['ndir'];
+    $data = $_POST['data'];
 
     $formcontent = "
         Nombre: $name \n
@@ -13,9 +14,9 @@
         Calle Principal: $dirp \n
         Calle Secundaria: $dirs \n 
         Nro Casa: $ndir \n
-        
+        Productos: $data
     "   
-    //Productos: $misDatosjson \n dentro de formcontent
+    // \n dentro de formcontent
     $recipient = "jgallegos.jg99@gmail.com";
 
     $subject = "Compra $name";
