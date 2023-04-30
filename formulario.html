@@ -8,49 +8,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="body-form">
-    <div id="resultado"></div>
     <form method="post" action="./1.php" id="myform">
         <div class="form">
-            <h1 class="h1-form">Contacto</h1>
-            <div class="grupo">
-                <input type="text" name="name" id="name" required>
-                <span class="barra"></span>
-                <label for="nombre">Nombre y Apellido</label>
-            </div>
+            <div class="contacto">
+                <h1 class="h1-form">Contacto</h1>
+                <div class="grupo">
+                    <input type="text" name="name" id="name" required>
+                    <span class="barra"></span>
+                    <label for="nombre">Nombre y Apellido</label>
+                </div>
 
-            <div class="grupo">
-                <input type="email" name="email" id="email" required>
-                <span class="barra"></span>
-                <label for="email">Email</label>
-            </div>
+                <div class="grupo">
+                    <input type="email" name="email" id="email" required>
+                    <span class="barra"></span>
+                    <label for="email">Email</label>
+                </div>
 
-            <div class="grupo">
-                <input type="tel" name="tel" id="tel" required>
-                <span class="barra"></span>
-                <label for="telefono">Teléfono</label>
-            </div>
+                <div class="grupo">
+                    <input type="tel" name="tel" id="tel" required>
+                    <span class="barra"></span>
+                    <label for="telefono">Teléfono</label>
+                </div>
 
-            <h2 class="h2-form">Dirección</h2>
+                <h2 class="h2-form">Dirección</h2>
 
-            <div class="grupo">
-                <input type="text" name="dirp" id="dirp" required>
-                <span class="barra"></span>
-                <label for="dirp">Calle Principal</label>
-            </div>
+                <div class="grupo">
+                    <input type="text" name="dirp" id="dirp" required>
+                    <span class="barra"></span>
+                    <label for="dirp">Calle Principal</label>
+                </div>
 
-            <div class="grupo">
-                <input type="text" name="dirs" id="dirs" required>
-                <span class="barra"></span>
-                <label for="dirs">Calle Secundaria</label>
-            </div>
+                <div class="grupo">
+                    <input type="text" name="dirs" id="dirs" required>
+                    <span class="barra"></span>
+                    <label for="dirs">Calle Secundaria</label>
+                </div>
 
-            <div class="grupo">
-                <input type="text" name="ndir" id="ndir" required>
-                <span class="barra"></span>
-                <label for="ndir">Número de casa</label>
-                <textarea name="productos" id="" cols="30" rows="10" readonly>1234</textarea>
+                <div class="grupo">
+                    <input type="text" name="ndir" id="ndir" required>
+                    <span class="barra"></span>
+                    <label for="ndir">Número de casa</label>
+                </div>
+                <textarea class="text-area" name="productos" id="productos-enviar" cols="28" rows="10" readonly></textarea>
+                <button class="boton-form" type="submit" id="boton-form">Confirmar</button>
             </div>
-            <button class="boton-form" type="submit" id="boton-form">Confirmar</button>
         </div>
     </form>
     <script src="./js/formulario.js"></script>

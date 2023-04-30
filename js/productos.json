@@ -1,133 +1,244 @@
 [
     {
-        "id": "abrigo-01",
-        "titulo": "abrigo 01",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "corporal-01",
+        "titulo": "Crema Corporal Kannabis",
+        "imagen": "./img/corporal/corporal-kannabis.png",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Corporal",
+            "id": "corporal"
         },
-        "precio": 1000
+        "precio": 30,
+        "descripcion":"Formulación exclusiva para el cuidado y protección de todo tipo de piel. Elaborada con  extracto de Cannabis Sativa más bioactivos naturales que regeneran, fortalecen y reparan la barrera protectora natural de la piel, manteniéndola saludable y humectada.Coadyuvante al alivio de inflamación, dolor y prurito."
     },
     
     {
-        "id": "abrigo-02",
-        "titulo": "abrigo 02",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "corporal-02",
+        "titulo": "Leche Virginal Silver",
+        "imagen": "./img/corporal/crema-corporal-leche-virginal.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Corporal",
+            "id": "corporal"
         },
-        "precio": 1000
+        "precio": 25,
+        "descripcion":"combinación de Bioactivos re-estructurantes y reafirmantes, vitaminas, oligoelementos y fitoterapeúticos, presentes en el Benjui, Rosa Centifolia, Sauco ,Brezo y Avena Sativa, junto con el Colágeno y el Karité, ayudan a combatir la flacidez cutánea y reafirmar los tejidos mejorando de esta forma la estructura de la piel. Indicada para mejorar la elasticidad y recuperar humectación, gracias a sus componentes naturales ancestrales puede ser usada en todo tipo de piel y a cualquier edad.  También  post-parto,  cirugías, tras una pérdida importante de peso, para mejorar la elasticidad y funciones normales de la piel."
+
     },
 
     {
-        "id": "abrigo-03",
-        "titulo": "abrigo 03",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "corporal-03",
+        "titulo": "Exfoliante Leche Virginal Silver",
+        "imagen": "./img/corporal/exfoliante-leche-virginal-1.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Corporal",
+            "id": "corporal"
         },
-        "precio": 1000
+        "precio": 22,
+        "descripcion":"Leche Virginal exfoliante de bambú, formulada para promover la renovación epitelial, eliminando células muertas, regula el grosor de la epidermis, e incrementa la oxigenación celular. Exfoliante Silver es una línea hecha a base de bambú, colágeno y karité, actúa como un exfoliante facial y corporal, acelerando la descamación de la piel, limpiándola de impurezas y oxigenándola."
+
     },
 
     {
-        "id": "abrigo-04",
-        "titulo": "abrigo 04",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "facial-01",
+        "titulo": "Agua de Rosas Tradicional",
+        "imagen": "./img/facial/agua-de-rosas.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 8,
+        "descripcion":"Tónico facial y corporal, refrescante, hidratante, con propiedades regeneradoras, calmantes, relajantes, antiinflamatorias, antibacterianas, descongestionantes, limpia profundamente la piel y regula su PH natural. Brinda balance a cada célula epitelial. Es un aporte natural y efectivo de vitamina C, taninos, oligoelementos y minerales para mejorar la apariencia y dar elasticidad y lozanía a la piel."
+
     },
 
     {
-        "id": "pantalon-01",
-        "titulo": "pantalon 01",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "facial-02",
+        "titulo": "Agua de Rosas Silver",
+        "imagen": "./img/facial/agua-de-rosas-silver.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 10,
+        "descripcion":"Actúa como un tónico facial. Hidrata y suaviza la piel. Elimina impurezas y maquillaje. Limpia profundamente y controla el exceso de grasa. Es rejuvenecedor gracias a su alto contenido de vitamina c. Protector y revitalizador del cuero cabelludo."
     },
 
     {
-        "id": "pantalon-02",
-        "titulo": "pantalon 02",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "facial-03",
+        "titulo": "Lecha Virginal Tradicional",
+        "imagen": "./img/facial/LECHE-VIRGINAL-TRADICIONAL.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 15,
+        "descripcion":"Tónico facial-corporal, sus componentes naturales: Benjuí, Sauco y Brezo potencializan el ingreso de nutrientes, aminoácidos, oligoelementos, antioxidantes, vitaminas, minerales, hasta las capas más profundas de la piel, otorgando propiedades de humectación profunda, regeneración y reparación celular. La rosa centifolia y la avena sativa retiran de la piel de forma natural y profunda todas las impurezas y radicales libres que se acumulan día a día. Leche Virginal tradicional ideal para reparar la barrera cutánea luego de quemaduras, rozaduras, raspones y estrías."
     },
 
     {
-        "id": "pantalon-03",
-        "titulo": "pantalon 03",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "facial-04",
+        "titulo": "Crema Regeneradora Leal",
+        "imagen": "./img/facial/crema-regeneradora-leal-producto.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 15,
+        "descripcion":"”La piel masculina tiene un pH más alcalino y mayor número de glándulas sebáceas, y folículos pilosos, provocando más secreción lipídica (lo que llamamos sebo). De ahí, que los productos de tratamiento para hombres deberán ser astringentes-REGENERADORES y texturas acuosas, geles o cremas líquidas o fluidas.” Dra. Guadalupe Villacís, Bioquímica experta en formulación en cuidado facial."
+
     },
 
     {
-        "id": "pantalon-04",
-        "titulo": "pantalon 04",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "facial-05",
+        "titulo": "Leche Virginal Silver",
+        "imagen": "./img/facial/leche-virginal-silver-producto.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 18,
+        "descripcion":"Tónico nutritivo humectante con BENJUÍ, SAUCO, BREZO Y ALOE VERA. Por su composición rica en oligoelementos, vitaminas y aminoácidos, ofrece propiedades hidratantes, anti-inflamatorias, antioxidantes, cicatrizantes y bactericidas. Ideal para pieles delicadas, con acné, manchas, grasa y que requieran limpieza, humectación celular y reparación profunda."
+
     },
 
     {
-        "id": "camiseta-01",
-        "titulo": "camiseta 01",
-        "imagen": "https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+        "id": "facial-06",
+        "titulo": "Crema Facial Día Leche Virginal Silver",
+        "imagen": "./img/facial/crema-facial-dia-leche-virginal.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 20,
+        "descripcion":"Leche Virginal Crema Facial Día Silver ha sido diseñada para hidratar y proteger la piel durante el día, reduce arrugas y líneas de expresión gracias a su fórmula a base de resveratrol + antioxidantes + vitamina A + vitamina E + vitamina C. Su fórmula brinda un efecto revitalizante en el rostro, brindando luminosidad y elasticidad en la piel, gracias a sus antioxidantes previene y reduce el daño causado por los radicales libres, los efectos nocivos de la polución del ambiente en el cutis."
+
     },
 
     {
-        "id": "camiseta-02",
-        "titulo": "camiseta 02",
-        "imagen": "./img/prueba.jpg",
+        "id": "facial-07",
+        "titulo": "Crema Facial Noche Leche Virginal Silver",
+        "imagen": "./img/facial/crema-facial-noche-leche-virginal.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 20,
+        "descripcion":"Leche Virginal Crema Facial Noche Silver reduce arrugas y líneas de expresión, calma inflamaciones, regula la producción de grasa, mejora la función barrera de la piel, es despigmentante y antioxidante gracias a su avanzada fórmula a base de Ácido Hialurónico + colágeno +  + niacinamida B3. Leche Virginal Crema Facial Noche Silver ha sido diseñada para hidratar y nutrir la piel durante la noche. Su combinación de brinda un efecto revitalizante en el rostro, rellenando las arrugas, disminuyendo líneas de expresión y aclarando el tono de la piel."
+
     },
 
     {
-        "id": "camiseta-03",
-        "titulo": "camiseta 03",
-        "imagen": "./img/prueba.jpg",
+        "id": "facial-08",
+        "titulo": "Exfoliante Leche Virginal Silver",
+        "imagen": "./img/facial/exfoliante-leche-virginal-1.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 22,
+        "descripcion":"Leche Virginal exfoliante de bambú, formulada para promover la renovación epitelial, eliminando células muertas, regula el grosor de la epidermis, e incrementa la oxigenación celular. Exfoliante Silver es una línea hecha a base de bambú, colágeno y karité, actúa como un exfoliante facial y corporal, acelerando la descamación de la piel, limpiándola de impurezas y oxigenándola."
+
     },
 
     {
-        "id": "camiseta-04",
-        "titulo": "camiseta 04",
-        "imagen": "./img/prueba.jpg",
+        "id": "facial-09",
+        "titulo": "Crema Facial Día",
+        "imagen": "./img/facial/crema-facial-dia-kannabis.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Facial",
+            "id": "facial"
         },
-        "precio": 1000
+        "precio": 25,
+        "descripcion":"Protección y reparación celular BIOACTIVA que evita el daño ocasionado por radicales libres y otros agentes. Gracias a la combinación de Cannabis, Aquaxyl®, vitaminas, extractos y aceites naturales, activan el sistema de AQUAPORINAS, logrando humectar profundamente, regular el PH celular, y lograr absorción profunda de los componentes naturales. Las funciones de la piel cambian con la actividad y con la luz del sol, es decir, cuando estamos despiertos la piel juega un papel defensivo, protegiéndose de los rayos UV, la contaminación, las condiciones climáticas, etc."
+
+    },
+
+    {
+        "id": "facial-10",
+        "titulo": "Crema Facial Noche",
+        "imagen": "./img/facial/crema-facial-noche-kannabis.jpg",
+        "categoria": {
+            "nombre": "Facial",
+            "id": "facial"
+        },
+        "precio": 25,
+        "descripcion":"Renovación celular BIOACTIVA, mientras descansas. El Cannabidiol en combinación con aceites naturales, vitaminas, RESVERATROL Y AQUAXYL®, activan nutrición, reparación y humectación profunda cuando las células se encuentran en reposo. La piel no se comporta de la misma forma por la noche que por el día. Mientras dormimos la piel se regenera para reparar los daños causados durante el día."
+    },
+
+    {
+        "id": "fragancia-01",
+        "titulo": "Body Splash Mia",
+        "imagen": "./img/fragancias/splash-producto.jpg",
+        "categoria": {
+            "nombre": "Fragancia",
+            "id": "fragancia"
+        },
+        "precio": 14,
+        "descripcion":"Las colecciones DEJAVÚ, RUBI, FUERZA NATURAL Y PREMOCIÓN proporcionan diferentes aromas y sensaciones en nuestra piel. Los aromas de Mia By Bioamiga, son combinaciones EXCLUSIVAS, de fragancias con aromas que brindan un efecto relajante y duradero. Materia prima importada de calidad PREMIUM, desde laboratorios exclusivos en segmento dermo-cosméticos, como Basel Argentina y fragancias de MANE Francia."
+
+    },
+
+    {
+        "id": "fragancia-02",
+        "titulo": "Fragancia Corporal Leal",
+        "imagen": "./img/fragancias/leal-producto.jpg",
+        "categoria": {
+            "nombre": "Fragancia",
+            "id": "fragancia"
+        },
+        "precio": 14,
+        "descripcion":"Colecciones exclusivas para hombre EDDU, STIVE E ISAAC ,conjugan fragancias cítricas, dulces, madera y minerales , no solo aportan aromas profundos y duraderos, sino proporcionan relax y armonía integral gracias al ROMERO y LAVANDA ."
+
+    },
+
+    {
+        "id": "fragancia-03",
+        "titulo": "Leal Gold Collection",
+        "imagen": "./img/fragancias/gold-representantes.jpg",
+        "categoria": {
+            "nombre": "Fragancia",
+            "id": "fragancia"
+        },
+        "precio": 16,
+        "descripcion":"LOCIONES CORPORALES MASCULINAS CON MÁS DURACIÓN. Colecciones exclusivas para hombre EDDU, STIVE E ISAAC ,conjugan fragancias cítricas, dulces, madera y minerales , no solo aportan aromas profundos y duraderos, sino proporcionan relax y armonía integral gracias al ROMERO y LAVANDA ."
+
+    },
+
+    {
+        "id": "fragancia-04",
+        "titulo": "Fragancias Gold Woman",
+        "imagen": "./img/fragancias/fraganciabendecida.png",
+        "categoria": {
+            "nombre": "Fragancia",
+            "id": "fragancia"
+        },
+        "precio": 16,
+        "descripcion": "Disfruta las fragancias exclusivas con esencias importadas desde la casa MANÉ de Francia. Nuestra colección Mia Gold fragancias de amplia duración , hipo alergénicos, sin colorantes y contienen aromas exclusivos:"
+
+    },
+
+    {
+        "id": "fragancia-05",
+        "titulo": "Bioacqua Lavanda",
+        "imagen": "./img/fragancias/bioacqua-lavanda.jpg",
+        "categoria": {
+            "nombre": "Fragancia",
+            "id": "fragancia"
+        },
+        "precio": 16.5,
+        "descripcion":"Nueva línea Aromatherapy: Fragancia de Lavanda para uso en cuerpo, ambientes, telas y ropa. Reduce el estrés y tensión. Mejora el estado de ánimo. Equilibra las emociones. Armoniza la energía."
+
+    },
+
+    {
+        "id": "fragancia-06",
+        "titulo": "Bioacqua Azahares",
+        "imagen": "./img/fragancias/bioacqua-azahares.jpg",
+        "categoria": {
+            "nombre": "Fragancia",
+            "id": "fragancia"
+        },
+        "precio": 16.5,
+        "descripcion":"Nueva línea Aromatherapy: Fragancia de Azahares para uso en cuerpo, ambientes, telas y ropa. Alivia estados de ansiedad, nerviosismo e insomnio. Reduce de forma natural el dolor de cabeza. Disminuye el agotamiento y el cansancio. Equilibra las emociones y la energía."
     }
+
 ]

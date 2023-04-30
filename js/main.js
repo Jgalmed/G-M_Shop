@@ -12,7 +12,7 @@ const botonesCategorias = document.querySelectorAll('.boton-categoria');
 const tituloPrincipal  = document.querySelector('.titulo-principal');
 let botonesAgregar  = document.querySelectorAll('.producto-agregar');
 const numerito = document.querySelector('#numerito');
-
+let botonDetalle = document.querySelectorAll('.producto-descripcion');
 
 function cargarProductos(productosElegidos){
     contenedorProductos.innerHTML = "";
@@ -23,14 +23,18 @@ function cargarProductos(productosElegidos){
             <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}" >Agregar</button>
+                <p class="producto-precio">$${producto.precio}</p>		            
+		        <button class="producto-descripcion" id="${producto.id}">
+                <span>Detalle</span>
+                </button>
+                <button class="producto-agregar" id="${producto.id}">Agregar</button>
             </div>
         `;
         
         contenedorProductos.append(div);
     })  
-    actualizarBotonesAgregar ()
+    actualizarBotonesDetalle ();
+    actualizarBotonesAgregar ();
 }
 cargarProductos(vecProductos);
 
@@ -56,11 +60,19 @@ botonesCategorias.forEach(boton => {
     })
 });
 
+function actualizarBotonesDetalle () {
+    botonDetalle = document.querySelectorAll('.producto-descripcion');
+    botonDetalle.forEach(boton => {
+        boton.addEventListener('click',mostrarDesplegable);
+    });
+}
+
 function actualizarBotonesAgregar () {
     botonesAgregar = document.querySelectorAll('.producto-agregar');
     botonesAgregar.forEach(boton => {
         boton.addEventListener('click',agregarAlCarrito);
     });
+
 }
 
 let productosEnCarrito;
@@ -74,7 +86,20 @@ if (productosEnCarritoLS){
     productosEnCarrito = [];
 }
 
+function mostrarDesplegable(e) { 
 
+    const idBoton = e.currentTarget.id;
+    const productoDetalle = vecProductos.find(producto => producto.id === idBoton);
+    Swal.fire({
+        title: `${productoDetalle.titulo}`,
+        text: `${productoDetalle.descripcion}`,
+        imageUrl: `${productoDetalle.imagen}`,
+        imageWidth: 300,
+        imageHeight: 150,
+        imageAlt: 'Custom image',
+    })
+}
+    
 function agregarAlCarrito(e){
 
     Toastify({

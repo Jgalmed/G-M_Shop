@@ -66,8 +66,6 @@ function cargarProductosCarrito(){
 
 cargarProductosCarrito()
 
-
-
 function actualizarBotonesAEliminar () {
     botonesEliminar = document.querySelectorAll('.carrito-producto-eliminar');
     botonesEliminar.forEach(boton => {

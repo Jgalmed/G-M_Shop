@@ -54,6 +54,18 @@ aside{
 .logo{
     font-weight: 400;
     font-size: 1.3rem;
+    color: var(--clr-white);
+    display: flex;
+    content: center;
+}
+.logo-img{
+    width: 6rem;
+    height: 6rem;
+}
+.logo-img-mobile{
+    width: 1.3rem;
+    height: 1.3rem;
+    
 }
 
 .menu{
@@ -123,6 +135,112 @@ aside{
     background-color: var(--clr-main);
     color: var(--clr-white);
 }
+/*contactanos*/
+.icon-share{
+    color: var(--clr-white);
+}
+.btn-cssbuttons {
+    --btn-color: #275efe;
+    position: relative;
+    padding: 16px 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: var(--btn-color);
+    border-radius: 24px;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons span,
+   .btn-cssbuttons span span {
+    display: inline-flex;
+    vertical-align: middle;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons span {
+    transition-delay: 0.05s;
+   }
+   
+   .btn-cssbuttons span:first-child {
+    padding-right: 7px;
+   }
+   
+   .btn-cssbuttons span span {
+    margin-left: 8px;
+    transition-delay: 0.1s;
+   }
+   
+   .btn-cssbuttons ul {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    transform: translateY(-50%);
+   }
+   
+   .btn-cssbuttons ul li {
+    flex: 1;
+   }
+   
+   .btn-cssbuttons ul li a {
+    display: inline-flex;
+    vertical-align: middle;
+    transform: translateY(55px);
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons ul li a:hover {
+    opacity: 0.5;
+   }
+   
+   .btn-cssbuttons:hover::before {
+    transform: scale(1.2);
+   }
+   
+   .btn-cssbuttons:hover span,
+   .btn-cssbuttons:hover span span {
+    transform: translateY(-55px);
+   }
+   
+   .btn-cssbuttons:hover ul li a {
+    transform: translateY(0);
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(1) a {
+    transition-delay: 0.15s;
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(2) a {
+    transition-delay: 0.2s;
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(3) a {
+    transition-delay: 0.25s;
+   }
 
 .texto-footer{
     color: var(--clr-main-light);
@@ -169,11 +287,11 @@ main{
     font-size: 1rem;
 }
 
-.producto-agregar{
+.producto-agregar,.producto-descripcion{
     border: 0;
     background-color: var(--clr-white);
     color: var(--clr-main);
-    padding: .4rem;
+    padding: .3rem;
     text-transform: uppercase;
     border-radius: 2rem;
     cursor: pointer;
@@ -181,11 +299,11 @@ main{
     transition: background-color .2s, color .2s;
 }   
 
-.producto-agregar:hover{
+.producto-agregar:hover,.producto-descripcion:hover{
     background-color: var(--clr-main);
     color: var(--clr-white);
 }
-
+   
 /* CARRITO*/
 
 .contenedor-carrito{
@@ -317,6 +435,13 @@ form .grupo{
     position: relative;
     margin: 1rem;
 }
+.detalle{
+    padding: 1rem;
+}
+
+.text-area{
+    display: none;
+}
 
 input{
     background: none;
@@ -445,6 +570,9 @@ input:focus~.barra::before{
     }
 
     .header-mobile{
+        background-color: var(--clr-main);
+        width: 100%;
+        position: fixed;
         padding: 1rem;
         display: flex;
         justify-content: space-between;
@@ -452,8 +580,8 @@ input:focus~.barra::before{
     }
     
     .header-mobile .logo{
-        color: var(--clr-gray)
-
+        color: var(--clr-gray);
+        
     }
 
     .open-menu,
